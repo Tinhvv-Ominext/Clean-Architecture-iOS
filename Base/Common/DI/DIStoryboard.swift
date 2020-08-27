@@ -7,10 +7,9 @@
 //
 
 import Foundation
-import SwinjectStoryboard
 
 extension SwinjectStoryboard {
-    class func setup() {
+    public class func setup() {
         let container = DIContainer.instance.main
 
         container.storyboardInitCompleted(LoginVC.self) { r, c in

@@ -8,7 +8,6 @@
 
 import Foundation
 import Swinject
-import SwinjectStoryboard
 
 class DIContainer {
     

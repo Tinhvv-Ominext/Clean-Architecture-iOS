@@ -8,7 +8,7 @@
 
 import Foundation
 import Swinject
-import SwinjectStoryboard
+import UIKit
 
 // MARK: xib utils
 protocol HavingNib {

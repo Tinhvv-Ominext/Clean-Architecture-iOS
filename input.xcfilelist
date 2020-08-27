@@ -12,4 +12,3 @@ $(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework
 $(SRCROOT)/Carthage/Build/iOS/IQKeyboardManagerSwift.framework
 $(SRCROOT)/Carthage/Build/iOS/Alamofire.framework
 $(SRCROOT)/Carthage/Build/iOS/Swinject.framework
-$(SRCROOT)/Carthage/Build/iOS/SwinjectStoryboard.framework

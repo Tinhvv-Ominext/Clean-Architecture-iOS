@@ -8,20 +8,7 @@
 
 import Foundation
 import Swinject
-import SwinjectStoryboard
-internal final class Box<T> {
-    internal let value: T
-
-    internal init(_ value: T) {
-        self.value = value
-    }
-}
-internal protocol InjectionVerifiable: AnyObject {
-    var wasInjected: Bool { get set }
-}
-internal protocol RegistrationNameAssociatable: AnyObject {
-    var swinjectRegistrationName: String? { get set }
-}
+import UIKit
 
 private var uivcRegistrationNameKey: String = "UIViewController.swinjectRegistrationName"
 private var uivcWasInjectedKey: String = "UIViewController.wasInjected"
