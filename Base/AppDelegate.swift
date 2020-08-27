@@ -10,7 +10,6 @@ import UIKit
 import RxSwift
 import IQKeyboardManagerSwift
 import RealmSwift
-import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
